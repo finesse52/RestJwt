@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SwaggerConfig {
 
-    @Value("${nortin.openapi.dev-url}")
+    @Value("${finesse52.openapi.dev-url}")
     private String devUrl;
 
     @Bean
